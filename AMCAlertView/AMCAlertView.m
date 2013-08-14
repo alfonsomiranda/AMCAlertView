@@ -13,7 +13,6 @@
 @implementation AMCAlertView
 
 #define kAnimationDuration  0.2555
-//#define kAnimationDuration  0.4
 
 - (id)initWithTittle:(NSString *)tittleAlert message:(NSString *)message delegate:(id)delegate buttonTitle:(NSString *)buttonTitle {
     
@@ -64,16 +63,12 @@
         
         [self addSubview:_messageView];
         
-//        UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(closeView)];
-//        [self addGestureRecognizer:singleTap];
-        
     }
     return self;
 }
 
 - (void)show {
     
-    //_messageView.frame = CGRectMake(_messageView.frame.origin.x, _messageView.frame.origin.y, 0, 0);
     [[[UIApplication sharedApplication] keyWindow] addSubview:self];
     
     CALayer *viewLayer = _messageView.layer;
