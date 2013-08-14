@@ -62,7 +62,6 @@
 		05FE8F8B17BA7DCB00641CD3 = {
 			isa = PBXGroup;
 			children = (
-				05FE8FBE17BA7F9800641CD3 /* QuartzCore.framework */,
 				05FE8FBA17BA7DE800641CD3 /* AMCAlertView */,
 				05FE8F9D17BA7DCB00641CD3 /* AMCAlertViewSample */,
 				05FE8F9617BA7DCB00641CD3 /* Frameworks */,
@@ -81,6 +80,7 @@
 		05FE8F9617BA7DCB00641CD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05FE8FBE17BA7F9800641CD3 /* QuartzCore.framework */,
 				05FE8F9717BA7DCB00641CD3 /* UIKit.framework */,
 				05FE8F9917BA7DCB00641CD3 /* Foundation.framework */,
 				05FE8F9B17BA7DCB00641CD3 /* CoreGraphics.framework */,
@@ -317,6 +317,7 @@
 				05FE8FB917BA7DCC00641CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
