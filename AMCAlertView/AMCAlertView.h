@@ -19,8 +19,6 @@
 @interface AMCAlertView : UIView {
     
     UIView *_messageView;
-    UIView *_messageView2;
-    UIView *_parentView;
     
 }
 

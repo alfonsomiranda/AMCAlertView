@@ -114,12 +114,4 @@
     
 }
 
-- (void)infoAction {
-    
-    [UIView transitionFromView:_messageView toView:_messageView2 duration:0.5 options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
-        
-    }];
-    
-}
-
 @end
